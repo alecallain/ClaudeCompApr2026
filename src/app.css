@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .roast-output h1 {
+    @apply text-orange-400 text-2xl font-black mt-8 mb-3;
+  }
+
+  .roast-output h2 {
+    @apply text-orange-400 text-xl font-bold mt-6 mb-2 pb-1 border-b border-orange-900/40;
+  }
+
+  .roast-output h3 {
+    @apply text-amber-400 text-lg font-semibold mt-4 mb-2;
+  }
+
+  .roast-output p {
+    @apply text-gray-200 mb-3 leading-relaxed;
+  }
+
+  .roast-output strong {
+    @apply text-orange-300 font-semibold;
+  }
+
+  .roast-output em {
+    @apply text-amber-300 italic;
+  }
+
+  .roast-output ul {
+    @apply list-disc list-outside ml-5 mb-3 space-y-1;
+  }
+
+  .roast-output ol {
+    @apply list-decimal list-outside ml-5 mb-3 space-y-1;
+  }
+
+  .roast-output li {
+    @apply text-gray-200 leading-relaxed;
+  }
+
+  .roast-output code {
+    @apply bg-gray-800 text-orange-300 px-1.5 py-0.5 rounded text-sm font-mono;
+  }
+
+  .roast-output pre {
+    @apply bg-gray-800 p-4 rounded-xl mb-4 overflow-x-auto;
+  }
+
+  .roast-output pre code {
+    @apply bg-transparent p-0 text-gray-300;
+  }
+
+  .roast-output blockquote {
+    @apply border-l-4 border-orange-600 pl-4 italic text-gray-400 my-3 bg-orange-950/20 py-2 pr-2 rounded-r-lg;
+  }
+
+  .roast-output hr {
+    @apply border-gray-700 my-6;
+  }
+
+  .roast-output a {
+    @apply text-orange-400 underline hover:text-orange-300;
+  }
+}
